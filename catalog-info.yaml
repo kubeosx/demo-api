@@ -9,7 +9,7 @@ metadata:
     backstage.io/kubernetes-id: "DemoApi"
     backstage.io/kubernetes-namespace: "dev"
     prometheus.io/alert: all
-    vault.io/secrets-path: 'kubeos/dev/demo-api'
+    vault.io/secrets-path: 'dev'
   tags:
     - dotnet
     - webapi
