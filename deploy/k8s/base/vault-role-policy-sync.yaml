@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: demo-api-vault-sync-config
+  labels:
+    kubeos.io/vault-cm: vault-config
+data:
+  app: "demo-api"

@@ -1,0 +1,8 @@
+site_name: "DemoApi"
+site_description: "DemoApi Add a readme if you have. Help others understand what this web api is for."
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

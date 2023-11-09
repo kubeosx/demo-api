@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+metadata:
+  name: DemoApi
+namespace: qa
+bases:
+  - ../../base
+commonAnnotations:
+  app: DemoApi
+  backstage.io/kubernetes-id: "DemoApi"
+commonLabels:
+  app: DemoApi
+  backstage.io/kubernetes-id: "DemoApi"
+patchesStrategicMerge:
+  - configmap_patch.yaml
+  - deployment_patch.yaml
